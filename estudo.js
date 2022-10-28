@@ -45,5 +45,10 @@ function moeda(atual){
     
   }
     
-  
+  function adicao() {
+    let val1 = document.getElementById("v1").value;
+    let val2 = document.getElementById("v2").value;
+    let r = Number(val1) + Number(val2);
+    document.getElementById("Resultado").innetHTML = r;
+  }
   
