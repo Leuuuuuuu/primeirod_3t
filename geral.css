@@ -4,6 +4,22 @@
     padding: 10px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 5px 5px  pink;
+}
+.spMes {
+  border-color: black;
+  border-width: 1px;
+  border-style: dashed;
+  background: purple;
+  color: blue;
+  text-align: start;
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+#calculadora input:focus {
+  background: black;
+  color: white;
 }
 #calculadora input{
 background: darkgrey;
