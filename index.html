@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -20,7 +20,7 @@
       </label>
 
       <div class="calcF">
-     
+
       <div id="sptotal">
          <span id="Total">Total: 0,00</span><br>
       </div>
@@ -30,11 +30,38 @@
       Nr. de Meses: <input id="meses" type="text"> <br>
       <button onclick="total()">Calcula</button>
    </div>
+
+
+<div class="spMes">
+   <span id="mes">Meses</span>
+ </div>
 </div>
 
-   <div>
-      <span id="mes">Meses</span>
+<body>
+   <input type="checkbox" id="input-calcEqSG">
+
+   <div id="calculadora">
+
+      <label for="input-calcEqSG">
+         <h3>Equação<br>Segundo Grau</h3>
+      </label>
+
+      <div class="calcEqSG">
+
+      <div id="spRaiz">
+         <span id="raiz">Total: 0,00</span><br>
+      </div>
+
+      a: <input id="valor" type="text"> <br>
+      b: <input id="juros" type="text"> <br>
+      c: <input id="meses" type="text"> <br>
+      <button onclick="calculadoraRaiz()">Calcula</button>
    </div>
+
+
+<div class="spMes">
+   <span id="mes">Meses</span>
+ </div>
 </div>
 
    <br><br><br>
