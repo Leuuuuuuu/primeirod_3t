@@ -1,35 +1,45 @@
 #calculadora {
-    background: rgb(219, 117, 134);
+    background: rgb(156, 154, 154);
     width: 200px;
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px  pink;
+    box-shadow: 5px 5px  rgb(255, 155, 172);
 }
+
+#calculadoraESQ {
+    background: rgb(245, 245, 245);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px  lime;
+}
+
 .spMes {
   border-color: black;
   border-width: 1px;
   border-style: dashed;
-  background: purple;
-  color: blue;
+  background: rgb(255, 155, 172);
+  color: #000000;
   text-align: start;
   border-radius: 10px;
   padding: 5px;
   margin-top: 10px;
 }
 #calculadora input:focus {
-  background: black;
+  background: rgb(255, 155, 172);
   color: white;
 }
 #calculadora input{
 background: darkgrey;
-color: darkslateblue;
+color: rgb(255, 155, 172);
 padding: 5px;
 border-radius: 5px;
 }
 #Total {
-    background:rgb(11, 53, 107);
-    color: rgb(58, 191, 201);
+    background:rgb(255, 155, 172);
+    color: rgb(255, 119, 142);
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
