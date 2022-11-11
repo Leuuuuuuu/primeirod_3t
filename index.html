@@ -40,7 +40,7 @@
 <body>
    <input type="checkbox" id="input-calcEqSG">
 
-   <div id="calculadora">
+   <div id="calculadoraESQ">
 
       <label for="input-calcEqSG">
          <h3>Equação<br>Segundo Grau</h3>
@@ -49,18 +49,14 @@
       <div class="calcEqSG">
 
       <div id="spRaiz">
-         <span id="raiz">Total: 0,00</span><br>
+         <span id="raiz"></span><br>
       </div>
 
-      a: <input id="valor" type="text"> <br>
-      b: <input id="juros" type="text"> <br>
-      c: <input id="meses" type="text"> <br>
-      <button onclick="calculadoraRaiz()">Calcula</button>
+      a: <input id="a" placeholder="a" type="text"> <br>
+      b: <input id="b" placeholder="b" type="text"> <br>
+      c: <input id="c" placeholder="c" type="text"> <br>
+      <button onclick="calculaRaiz()">Calcula</button>
    </div>
-
-
-<div class="spMes">
-   <span id="mes">Meses</span>
  </div>
 </div>
 
@@ -76,3 +72,4 @@
 </body>
 
 </html>
+
