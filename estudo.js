@@ -82,6 +82,3 @@ function moeda(atual){
     document.getElementById("resultado").innerHTML = r;
   }
 
-
-
-
