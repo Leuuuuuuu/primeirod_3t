@@ -93,7 +93,7 @@ function moeda(atual){
       raiz = Math.sqrt(delta);
       x1 = ((-b)+raiz)/(2*a);
       x2 = ((-b)-raiz)/(2*a);
-      raiz = "x1="+x1+" X2="+x2;
+      raiz = "x1="+x1+" x2="+x2;
 
     }else{
       raiz = "NAO TEM RAIZ REAL "
